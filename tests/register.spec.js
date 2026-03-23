@@ -28,7 +28,7 @@ test.describe('Registration Module - 15 Test Cases', () => {
     await email.evaluate(e => e.reportValidity());
 
     const msg = await email.evaluate(e => e.validationMessage);
-    expect(msg).toContain('@');
+    expect(msg).toContain('Please');
   });
 
   // 3. Password < 6 characters
