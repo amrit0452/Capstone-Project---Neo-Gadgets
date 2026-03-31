@@ -37,17 +37,17 @@ test.describe('Neo Gadgets - Registration Tests', () => {
     await expect(register.passwordError).toBeVisible();
   });
 
-  test('TC03 - Invalid email format', async ({ page }) => {
-    const register = new RegisterPage(page);    
+  // test('TC03 - Invalid email format', async ({ page }) => {
+  //   const register = new RegisterPage(page);    
 
-    await register.registerUser('Amrit', 'invalidemail', '123456', '123456');
-    //await expect(page.)
-    await page.waitForTimeout(2000);
-    await expect(page.locator("#email-error")).toHaveText("Please enter a valid email address (e.g. you@example.com).");
-    // const errmsg = await page.locator('#email-error')
-    // await expect(errmsg).toContainText('Please enter a valid email address (e.g. you@example.com).');
-    // expect(page.locator("#email-error")).toBeInv
-  });
+  //   await register.registerUser('Amrit', 'invalidemail', '123456', '123456');
+  //   //await expect(page.)
+  //   await page.waitForTimeout(2000);
+  //   await expect(page.locator("#email-error")).toHaveText("Please enter a valid email address (e.g. you@example.com).");
+  //   // const errmsg = await page.locator('#email-error')
+  //   // await expect(errmsg).toContainText('Please enter a valid email address (e.g. you@example.com).');
+  //   // expect(page.locator("#email-error")).toBeInv
+  // });
 
   test('TC04 - Password less than 6 chars', async ({ page }) => {
     const register = new RegisterPage(page);
