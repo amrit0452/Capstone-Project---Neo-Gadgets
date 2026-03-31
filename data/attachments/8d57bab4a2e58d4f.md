@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "⚡ NEO GADGETS" [ref=e4] [cursor=pointer]:
+        - /url: /index.html
+        - generic [ref=e5]: ⚡
+        - text: NEO GADGETS
+      - generic [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /index.html
+        - link "Products" [ref=e8] [cursor=pointer]:
+          - /url: /products.html
+      - generic [ref=e9]:
+        - link "Log In" [ref=e10] [cursor=pointer]:
+          - /url: /login.html
+        - link "Sign Up" [ref=e11] [cursor=pointer]:
+          - /url: /register.html
+  - generic [ref=e13]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: ⚡ New Arrivals Drop 04
+      - heading "The Future Is Now" [level=1] [ref=e19]:
+        - text: The Future
+        - text: Is Now
+      - paragraph [ref=e20]: Equip yourself with next-generation smart technology, autonomous drones, and robotic companions.
+      - generic [ref=e21]:
+        - link "Explore Catalog →" [ref=e22] [cursor=pointer]:
+          - /url: /products.html
+        - link "Join Now" [ref=e23] [cursor=pointer]:
+          - /url: /register.html
+    - generic [ref=e24]:
+      - heading "Shop by Category" [level=2] [ref=e26]
+      - generic [ref=e27]:
+        - link "🚁 Drones" [ref=e28] [cursor=pointer]:
+          - /url: /products.html?category=Drones
+          - generic [ref=e29]: 🚁
+          - generic [ref=e30]: Drones
+        - link "🤖 Robot Dogs" [ref=e31] [cursor=pointer]:
+          - /url: /products.html?category=Robot%20Dogs
+          - generic [ref=e32]: 🤖
+          - generic [ref=e33]: Robot Dogs
+        - link "🏠 Smart Home" [ref=e34] [cursor=pointer]:
+          - /url: /products.html?category=Smart%20Home
+          - generic [ref=e35]: 🏠
+          - generic [ref=e36]: Smart Home
+        - link "⌚ Wearables" [ref=e37] [cursor=pointer]:
+          - /url: /products.html?category=Wearables
+          - generic [ref=e38]: ⌚
+          - generic [ref=e39]: Wearables
+        - link "📷 Cameras" [ref=e40] [cursor=pointer]:
+          - /url: /products.html?category=Cameras
+          - generic [ref=e41]: 📷
+          - generic [ref=e42]: Cameras
+        - link "🎧 Audio" [ref=e43] [cursor=pointer]:
+          - /url: /products.html?category=Audio
+          - generic [ref=e44]: 🎧
+          - generic [ref=e45]: Audio
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "Featured Products" [level=2] [ref=e48]
+        - link "View All →" [ref=e49] [cursor=pointer]:
+          - /url: /products.html
+      - paragraph [ref=e51]: No products available.
+```

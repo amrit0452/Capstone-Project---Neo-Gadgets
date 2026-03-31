@@ -1,0 +1,61 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Cool Gadgets Logo Cool Gadgets" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Cool Gadgets Logo" [ref=e8]
+          - generic [ref=e9]: Cool Gadgets
+        - navigation [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e12] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e15]
+          - generic [ref=e19]:
+            - link "Login" [ref=e20] [cursor=pointer]:
+              - /url: /login
+            - link "Register" [ref=e21] [cursor=pointer]:
+              - /url: /register
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - img "Gadgets" [ref=e26]
+          - generic [ref=e27]:
+            - img "Logo" [ref=e29]
+            - heading "Welcome back to the future." [level=1] [ref=e30]
+            - paragraph [ref=e31]: Sign in to track your orders, leave reviews, and access exclusive gadget drops.
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - heading "Sign in" [level=2] [ref=e35]
+            - paragraph [ref=e36]:
+              - text: Don't have an account?
+              - link "Register here" [ref=e37] [cursor=pointer]:
+                - /url: /register
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: Email Address
+              - textbox "Email Address" [ref=e41]:
+                - /placeholder: you@example.com
+                - text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com
+            - generic [ref=e42]:
+              - generic [ref=e43]: Password
+              - textbox "Password" [ref=e44]:
+                - /placeholder: ••••••••
+                - text: Password123
+            - button "Signing in..." [disabled] [ref=e45]
+    - contentinfo [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img "Logo" [ref=e49]
+          - generic [ref=e50]: Cool Gadgets © 2026
+        - paragraph [ref=e51]: Built for Playwright & Selenium UI Automation Testing.
+  - region "Notifications (F8)":
+    - list
+```

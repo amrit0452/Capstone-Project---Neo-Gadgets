@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Cool Gadgets Logo Cool Gadgets" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Cool Gadgets Logo" [ref=e8]
+          - generic [ref=e9]: Cool Gadgets
+        - navigation [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e12] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e15]
+          - generic [ref=e19]:
+            - link "Login" [ref=e20] [cursor=pointer]:
+              - /url: /login
+            - link "Register" [ref=e21] [cursor=pointer]:
+              - /url: /register
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - img "Tech Background" [ref=e26]
+          - generic [ref=e28]:
+            - heading "The Future of Tech, Delivered Today." [level=1] [ref=e29]:
+              - text: The Future of Tech,
+              - text: Delivered Today.
+            - paragraph [ref=e30]: Discover the latest drones, robotics, and smart devices engineered to elevate your daily life.
+            - generic [ref=e31]:
+              - link "Shop Collection" [ref=e32] [cursor=pointer]:
+                - /url: /products
+                - text: Shop Collection
+                - img [ref=e33]
+              - link "Explore Drones" [ref=e35] [cursor=pointer]:
+                - /url: /products?category=Drones
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - heading "Featured Gadgets" [level=2] [ref=e39]
+              - paragraph [ref=e40]: Hand-picked premium tech for you.
+            - link "View all" [ref=e41] [cursor=pointer]:
+              - /url: /products
+              - text: View all
+              - img [ref=e42]
+          - generic [ref=e44]:
+            - link "DJI Mini 4 Pro Drones DJI Mini 4 Pro (12) $759.99" [ref=e45] [cursor=pointer]:
+              - /url: /products/1
+              - generic [ref=e46]:
+                - img "DJI Mini 4 Pro" [ref=e47]
+                - generic [ref=e48]: Drones
+              - generic [ref=e49]:
+                - heading "DJI Mini 4 Pro" [level=3] [ref=e50]
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - img [ref=e54]
+                  - img [ref=e56]
+                  - img [ref=e58]
+                  - img [ref=e60]
+                  - generic [ref=e62]: (12)
+                - generic [ref=e63]:
+                  - generic [ref=e64]: $759.99
+                  - button [ref=e65]:
+                    - img [ref=e66]
+            - link "Autel EVO Nano+ Drones Autel EVO Nano+ (12) $649.99" [ref=e68] [cursor=pointer]:
+              - /url: /products/2
+              - generic [ref=e69]:
+                - img "Autel EVO Nano+" [ref=e70]
+                - generic [ref=e71]: Drones
+              - generic [ref=e72]:
+                - heading "Autel EVO Nano+" [level=3] [ref=e73]
+                - generic [ref=e74]:
+                  - img [ref=e75]
+                  - img [ref=e77]
+                  - img [ref=e79]
+                  - img [ref=e81]
+                  - img [ref=e83]
+                  - generic [ref=e85]: (12)
+                - generic [ref=e86]:
+                  - generic [ref=e87]: $649.99
+                  - button [ref=e88]:
+                    - img [ref=e89]
+            - link "Parrot ANAFI USA Drones Parrot ANAFI USA (12) $1,299.99" [ref=e91] [cursor=pointer]:
+              - /url: /products/3
+              - generic [ref=e92]:
+                - img "Parrot ANAFI USA" [ref=e93]
+                - generic [ref=e94]: Drones
+              - generic [ref=e95]:
+                - heading "Parrot ANAFI USA" [level=3] [ref=e96]
+                - generic [ref=e97]:
+                  - img [ref=e98]
+                  - img [ref=e100]
+                  - img [ref=e102]
+                  - img [ref=e104]
+                  - img [ref=e106]
+                  - generic [ref=e108]: (12)
+                - generic [ref=e109]:
+                  - generic [ref=e110]: $1,299.99
+                  - button [ref=e111]:
+                    - img [ref=e112]
+            - link "Unitree Go2 Robots Unitree Go2 (12) $1,599.99" [ref=e114] [cursor=pointer]:
+              - /url: /products/4
+              - generic [ref=e115]:
+                - img "Unitree Go2" [ref=e116]
+                - generic [ref=e117]: Robots
+              - generic [ref=e118]:
+                - heading "Unitree Go2" [level=3] [ref=e119]
+                - generic [ref=e120]:
+                  - img [ref=e121]
+                  - img [ref=e123]
+                  - img [ref=e125]
+                  - img [ref=e127]
+                  - img [ref=e129]
+                  - generic [ref=e131]: (12)
+                - generic [ref=e132]:
+                  - generic [ref=e133]: $1,599.99
+                  - button [ref=e134]:
+                    - img [ref=e135]
+    - contentinfo [ref=e137]:
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - img "Logo" [ref=e140]
+          - generic [ref=e141]: Cool Gadgets © 2026
+        - paragraph [ref=e142]: Built for Playwright & Selenium UI Automation Testing.
+  - region "Notifications (F8)":
+    - list
+```
