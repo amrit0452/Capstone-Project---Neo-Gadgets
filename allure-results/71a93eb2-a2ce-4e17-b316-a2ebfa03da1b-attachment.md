@@ -1,0 +1,42 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Cool Gadgets Logo" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Cool Gadgets Logo" [ref=e8]
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e11]
+          - button [ref=e15]:
+            - img [ref=e16]
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - img "Tech Background" [ref=e21]
+          - generic [ref=e23]:
+            - heading "The Future of Tech, Delivered Today." [level=1] [ref=e24]
+            - paragraph [ref=e25]: Discover the latest drones, robotics, and smart devices engineered to elevate your daily life.
+            - generic [ref=e26]:
+              - link "Shop Collection" [ref=e27] [cursor=pointer]:
+                - /url: /products
+                - text: Shop Collection
+                - img [ref=e28]
+              - link "Explore Drones" [ref=e30] [cursor=pointer]:
+                - /url: /products?category=Drones
+        - generic [ref=e33]:
+          - heading "Featured Gadgets" [level=2] [ref=e34]
+          - paragraph [ref=e35]: Hand-picked premium tech for you.
+    - contentinfo [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - img "Logo" [ref=e44]
+          - generic [ref=e45]: Cool Gadgets © 2026
+        - paragraph [ref=e46]: Built for Playwright & Selenium UI Automation Testing.
+  - region "Notifications (F8)":
+    - list
+```

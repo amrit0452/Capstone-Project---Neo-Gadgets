@@ -1,0 +1,57 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "NEO GADGETS" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: NEO GADGETS
+        - navigation [ref=e12]:
+          - link "Gadgets" [ref=e13] [cursor=pointer]:
+            - /url: /products
+            - img [ref=e14]
+            - text: Gadgets
+        - generic [ref=e21]:
+          - link "Log In" [ref=e22] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e23] [cursor=pointer]:
+            - /url: /register
+    - main [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "NEW OPERATOR" [level=1] [ref=e28]
+          - paragraph [ref=e29]: Register your biometrics to the system
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - img [ref=e33]
+              - text: Operator Designation (Name)
+            - textbox "Neo" [ref=e36]: Test
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - text: Link Address (Email)
+            - textbox "neo@matrix.net" [active] [ref=e42]
+            - paragraph [ref=e43]: Invalid email address format
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - text: Security Passcode
+            - textbox "Min 6 characters" [ref=e49]: "123456"
+          - button "ESTABLISH CONNECTION" [ref=e50]
+        - generic [ref=e51]:
+          - text: Already registered?
+          - link "Authenticate here" [ref=e52] [cursor=pointer]:
+            - /url: /login
+    - contentinfo [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img [ref=e56]
+          - generic [ref=e58]: NEO GADGETS
+        - paragraph [ref=e59]: © 2026 Neo Gadgets. Welcome to the future.
+  - region "Notifications (F8)":
+    - list
+```

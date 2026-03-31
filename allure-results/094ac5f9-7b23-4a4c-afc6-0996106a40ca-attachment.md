@@ -1,0 +1,59 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "NEO GADGETS" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: NEO GADGETS
+        - navigation [ref=e12]:
+          - link "Gadgets" [ref=e13] [cursor=pointer]:
+            - /url: /products
+            - img [ref=e14]
+            - text: Gadgets
+        - generic [ref=e22]:
+          - link "Log In" [ref=e23] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e24] [cursor=pointer]:
+            - /url: /register
+    - main [ref=e25]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "NEW OPERATOR" [level=1] [ref=e29]
+          - paragraph [ref=e30]: Register your biometrics to the system
+        - generic [ref=e31]:
+          - img [ref=e32]
+          - text: "HTTP 400 : An account with this email already exists"
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - text: Operator Designation (Name)
+            - textbox "Neo" [ref=e40]: Test
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - img [ref=e43]
+              - text: Link Address (Email)
+            - textbox "neo@matrix.net" [ref=e46]: test@gmail.com
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - img [ref=e49]
+              - text: Security Passcode
+            - textbox "Min 6 characters" [ref=e52]
+          - button "ESTABLISH CONNECTION" [ref=e53]
+        - generic [ref=e54]:
+          - text: Already registered?
+          - link "Authenticate here" [ref=e55] [cursor=pointer]:
+            - /url: /login
+    - contentinfo [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - img [ref=e59]
+          - generic [ref=e61]: NEO GADGETS
+        - paragraph [ref=e62]: © 2026 Neo Gadgets. Welcome to the future.
+  - region "Notifications (F8)":
+    - list
+```
