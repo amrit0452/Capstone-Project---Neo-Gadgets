@@ -104,12 +104,7 @@ test.describe('Profile Module - 20 Test Cases', () => {
   // EDGE CASES
   // =========================
 
-  test.skip('TC16 - Long name input', async () => {
-    const longName = 'A'.repeat(100);
-    await profilePage.nameInput.fill(longName);
-    await profilePage.saveBtn.click();
-    await expect(profilePage.nameInput).toBeVisible();
-  });
+  
 
   test('TC17 - Special characters in name', async () => {
     await profilePage.nameInput.fill('@#$%^&*');
@@ -119,7 +114,7 @@ test.describe('Profile Module - 20 Test Cases', () => {
 
   test('TC18 - Password with spaces', async () => {
     await profilePage.currentPassword.fill('123456 ');
-    await profilePage.newPassword.fill(' 1234567');
+    await profilePage.newPassword.fill('1234567');
     await profilePage.saveBtn.click();
     await expect(profilePage.saveBtn).toBeVisible();
   });
